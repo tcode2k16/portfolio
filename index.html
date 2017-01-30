@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      
+    <!-- SEO --> 
+    <title>Alan Chang | tcode2k16@gmail.com</title>
+    <meta name="description" content="A portfolio">
+    
+    <!-- URL CANONICAL -->
+    <!-- <link rel="canonical" href="http://your-url.com/"> -->
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+    
+    <!-- CSS Base -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/base.css">
+    
+    <!-- CSS Colors -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/colors.css">
+    
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
+    
+    
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon.png">
+    <link rel="shortcut icon" sizes="32x32" href="static/images/favicons/favicon-32.png">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="static/images/favicons/favicon-76.png">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="static/images/favicons/favicon-120.png">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="static/images/favicons/favicon-152.png">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="static/images/favicons/favicon-180.png">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="static/images/favicons/favicon-192.png">
+    
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+
+    <style>
+    
+    .sflex {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .spx {
+      image-rendering: pixelated;
+      width: 100%
+    }
+
+    </style>
+    
+  </head>
+  <body>
+    <header role="banner">
+      <nav role="navigation">
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+          <p>Alan Chang</p>
+          <ul>
+            <li class="github">
+              <a rel="external" target="_blank" href="https://github.com/tcode2k16" title="Github">
+                <svg class="fa-github">
+                  <use xlink:href="#fa-github"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+    <main role="main">
+      <article id="webslides" class="vertical">
+      
+        <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 1200px / <div class="wrap size-50"> = 600px; 
+        -->
+        <section class="fullscreen">
+          <div class="card-50">
+            <figure>
+              <img src="./static/images/bg/snow.jpg" alt="snow">
+            </figure>
+            <!-- end figure-->
+            <div class="flex-content">
+              <h2>Alan Chang
+              </h2>
+              <br>
+              <p class="text-intro">
+                Hi, I am a high school freshman who is interested in Web development, Machine learning and Designing.
+              </p>
+              <p class="aligncenter"><a class="button" target="_blank" href="https://github.com/tcode2k16">Github</a></p>
+            </div>
+            <!-- end .flex-content-->
+          </div>
+          <!-- end .card-50-->
+        </section>
+        <section>
+          <div class="wrap">
+            <h3>My work on web dev</h3>
+            <ul class="flexblock gallery">
+              <li>
+                <a href="#slide=3" target="_blank" title="Vitalic">
+                  <figure>
+                    <img alt="Thumbnail Vitalic" src="./static/images/projects/vitalic.png">
+                    <figcaption>
+                      <h2>Vitalic</h2>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="#slide=4" target="_blank" title="Kiwi">
+                  <figure>
+                    <img alt="Thumbnail Kiwi" src="./static/images/projects/kiwi.png">
+                    <figcaption>
+                      <h2>Kiwi</h2>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="#slide=5" target="_blank" title="Jade">
+                  <figure>
+                    <img alt="Thumbnail Jade" src="./static/images/projects/jade.png" class="spx">
+                    <figcaption>
+                      <h2>Jade</h2>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="#slide=6" target="_blank" title="Torrentflow">
+                  <figure>
+                    <img alt="Thumbnail Torrentflow" src="./static/images/projects/torrentflow.png" class="spx">
+                    <figcaption>
+                      <h2>Torrentflow</h2>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="fullscreen">
+          <div class="card-50">
+            <figure>
+              <img src="./static/images/bg/italy.jpeg" alt="Florence, Italy">
+            </figure>
+            <!-- end figure-->
+            <div class="flex-content">
+              <h2>
+                Vitalic
+              </h2>
+              <p>A health screening application that can calculate your heart rate based on a simple video.</p>
+              <ul class="description">
+                <li>
+                  <strong class="text-label" style="width: 13em">Tech:</strong> Vue.js, Vuex, Element ui...
+                </li>
+                <li><strong class="text-label" style="width: 13em">Time Spent:</strong> 24hr</li>
+                <li><strong class="text-label" style="width: 13em">Open Source:</strong> Yes</li>
+              </ul>
+              <p>
+                This is a project I built with a few friends during a 24hr hackathon. The app calculates a person's heart rate based on his blood flow. The app first locates a person's forehead and then magnifies the change of pixels in order to get the heart rate. From there, the app can get infomation about your blood pressure, mood, and much more.
+              </p>
+              <div class="wrap">
+                <div class="sflex">
+                  <a class="button" target="_blank" href="https://www.vitalic.io/">Website</a>
+                  <a class="button" target="_blank" href="https://github.com/yesh0907/Vitalic">Github</a>
+                </div>
+              </div>
+            </div>
+            <!-- end .flex-content-->
+          </div>
+          <!-- .end .card50 -->
+        </section>
+        <section class="fullscreen">
+          <div class="card-50">
+            <figure>
+              <img src="./static/images/bg/stars.jpg" alt="Stars">
+            </figure>
+            <!-- end figure-->
+            <div class="flex-content">
+              <h2>
+                Kiwi
+              </h2>
+              <p>A flashcard system that helps people memorize stuff</p>
+              <ul class="description">
+                <li>
+                  <strong class="text-label" style="width: 13em">Tech:</strong> Vue.js, Vuex, Element ui...
+                </li>
+                <li><strong class="text-label" style="width: 13em">Time Spent:</strong> ~72hr</li>
+                <li><strong class="text-label" style="width: 13em">Open Source:</strong> Yes</li>
+              </ul>
+              <p>
+                This is a flashcard system that I built on my own. I use this app myself to help me memorize knowledge points learned in class. It is still a work in progress. I would like to finish it in the near future.
+              </p>
+              <div class="wrap">
+                <div class="sflex">
+                  <a class="button" target="_blank" href="https://tcode2k16.github.io/kiwi/">Website</a>
+                  <a class="button" target="_blank" href="https://github.com/tcode2k16/kiwi">Github</a>
+                </div>
+              </div>
+            </div>
+            <!-- end .flex-content-->
+          </div>
+          <!-- .end .card50 -->
+        </section>
+        <section class="fullscreen">
+          <div class="card-50">
+            <figure>
+              <img src="./static/images/bg/gress.jpg" alt="gress">
+            </figure>
+            <!-- end figure-->
+            <div class="flex-content">
+              <h2>
+                Jade
+              </h2>
+              <p>A match-three puzzle game with gravity</p>
+              <ul class="description">
+                <li>
+                  <strong class="text-label" style="width: 13em">Tech:</strong> javascript es6, matter-js, hammer-js
+                </li>
+                <li><strong class="text-label" style="width: 13em">Time Spent:</strong> ~12hr</li>
+                <li><strong class="text-label" style="width: 13em">Open Source:</strong> Yes</li>
+              </ul>
+              <p>
+                This is a mobile match-three puzzle game. The game works well on mobile. It uses the sensors on the phone to create gravity effects.
+              </p>
+              <div class="wrap">
+                <div class="sflex">
+                  <a class="button" target="_blank" href="https://tcode2k16.github.io/jade/index.html">Website</a>
+                  <a class="button" target="_blank" href="https://github.com/tcode2k16/jade">Github</a>
+                </div>
+              </div>
+            </div>
+            <!-- end .flex-content-->
+          </div>
+          <!-- .end .card50 -->
+        </section>
+        <section class="fullscreen">
+          <div class="card-50">
+            <figure>
+              <img src="./static/images/bg/car.jpg" alt="Car">
+            </figure>
+            <!-- end figure-->
+            <div class="flex-content">
+              <h2>
+                Torrentflow
+              </h2>
+              <p>A torrent search engine</p>
+              <ul class="description">
+                <li>
+                  <strong class="text-label" style="width: 13em">Tech:</strong> choojs, nodejs, ajex
+                </li>
+                <li><strong class="text-label" style="width: 13em">Time Spent:</strong> ~12hr</li>
+                <li><strong class="text-label" style="width: 13em">Open Source:</strong> Yes</li>
+              </ul>
+              <p>
+                This is a torrent file searcher. It is only built for demonstration purpose.
+              </p>
+              <div class="wrap">
+                <div class="sflex">
+                  <a class="button" target="_blank" href="https://bit.ly/torrentflow">Website</a>
+                  <a class="button" target="_blank" href="https://github.com/tcode2k16/TorrentFlow">Github</a>
+                </div>
+              </div>
+            </div>
+            <!-- end .flex-content-->
+          </div>
+          <!-- .end .card50 -->
+        </section>
+        <section class="fullscreen">
+          <div class="wrap">
+            <h3>Great papers I read</h3>
+            <ul class="flexblock gallery">
+              <li>
+                <a href="http://people.csail.mit.edu/mrub/papers/vidmag.pdf" target="_blank" title="evm">
+                  <figure>
+                    <img alt="Thumbnail evm" src="./static/images/papers/evm.png">
+                    <figcaption>
+                      <h2>Eulerian Video Magnification for Revealing Subtle Changes in the World</h2>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="http://ai2-website.s3.amazonaws.com/publications/XNOR-Net.pdf" target="_blank" title="xnor">
+                  <figure>
+                    <img alt="Thumbnail xnor" src="./static/images/papers/xnor.png">
+                    <figcaption>
+                      <h2>XNOR-Net: ImageNet Classification Using Binary Convolutional Neural Networks</h2>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/HFTrader/DeepLearningBook/raw/master/DeepLearningBook.pdf" target="_blank" title="deep learning">
+                  <figure>
+                    <img alt="Thumbnail deep learning" src="./static/images/papers/deep.png">
+                    <figcaption>
+                      <h2>Deep Learning (LeCun, Yann, Yoshua Bengio, and Geoffrey Hinton.)</h2>
+                    </figcaption>
+                  </figure>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+      </article>
+      <!-- end article -->
+    </main>
+    <!-- end main --> 
+    
+   <!-- Remove #webslides element :)
+   
+     <footer role="contentinfo">
+      <div class="wrap">
+        <p>An <a href="https://github.com/jlantunez/webslides">open source solution</a>, by <a href="https://twitter.com/jlantunez">@jlantunez</a>.</p>
+      </div>
+    </footer>  --> 
+    
+    <!-- jQuery (required for slides to work) -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="static/js/webslides.js"></script>
+    
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="static/js/svg-icons.js"></script>
+    
+  </body>
+</html>
